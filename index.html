@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo List App in JavaScript</title>
+    <title>To Do List In JavaScript</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -16,7 +16,7 @@
         </div>
         <div class="new-todo">
           <form id="todoform">
-            <input type="text" id="newtodo" name="newtodo" placeholder="I will ..." />
+            <input type="text" name="newtodo" id="newtodo" placeholder="I will do ..." />
             <button type="submit">
               <i class="bi bi-plus-circle-fill"></i>
             </button>
@@ -24,24 +24,15 @@
         </div>
       </header>
       <div id="todos-list">
-        <!-- <center>Nothing to do</center> -->
         <!-- <div class="todo" id="0">
-          <i
-            class="bi bi-check-circle-fill"
-            style="color: rgb(182, 5, 182)"
-            data-action="check"
-          ></i>
-          <i
-            class="bi bi-circle"
-            style="color: rgb(182, 5, 182)"
-            data-action="check"
-          ></i>
-          <p class="checked" data-action="check">Go get milk</p>
-          <i class="bi bi-pencil-square" data-action="edit"></i>
-          <i class="bi bi-trash" data-action="delete"></i>
+          <i class="bi bi-circle"></i>
+          <i class="bi bi-check-circle-fill"></i>
+          <p class="">Go get milk.</p>
+          <i class="bi bi-pencil-square"></i>
+          <i class="bi bi-trash"></i>
         </div> -->
       </div>
-      <div class="notification">Your to do is emty!</div>
+      <div class="notification"></div>
     </div>
 
     <script src="./script.js"></script>
